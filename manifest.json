@@ -1,0 +1,9 @@
+{
+    "name":"Drink Water",
+    "version":"1.0",
+    "description":"Exibe um lembrete após um perido determinado, para lembrar você de beber água!",
+    "browser_action":{
+        "default_popup":"index.html"
+    },
+    "manifest_version":2
+}
