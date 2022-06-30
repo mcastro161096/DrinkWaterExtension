@@ -1,0 +1,9 @@
+.main {
+    background-color: rgb(61, 192, 231);
+    width: 200px;
+    height: 60px
+};
+
+.play {
+    border-radius: 100%;
+}
