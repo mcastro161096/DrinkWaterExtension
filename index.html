@@ -3,12 +3,36 @@
 
 <head>
     <script src="/script.js"></script>
-    <link rel="stylesheet" href="style.css"></head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body class="main">
+
+    <div id="background-wrap">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+    </div>
+
     <div class="main">
-        <input type="number" id="time" min="1"></input>
-        <button class="play" id="play">Play</button>
+        <input type="text" id="time" min="1"></input>
+            <svg id="play" xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-play"
+                viewBox="0 0 16 16" id="IconChangeColor">
+                <path
+                    d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"
+                    id="mainIconPathAttribute" filter="url(#shadow)" fill="green" stroke="#07d53a" stroke-width="0.6">
+                </path>
+                <filter id="shadow">
+                    <feDropShadow id="shadowValue" stdDeviation=".5" dx="0" dy="0" flood-color="black"></feDropShadow>
+                </filter>
+            </svg>
     </div>
 </body>
 
